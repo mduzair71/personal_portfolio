@@ -1,0 +1,90 @@
+/* navbar */
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  background-size: 300% 300%;
+  animation: gradientMove 12s ease infinite;
+}
+/* hero section */
+
+/* Floating animation for image */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+/* Fade-in animation for text/buttons */
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.animate-fadeIn {
+  animation: fadeIn 1s ease forwards;
+}
+.animate-fadeIn.delay-200 {
+  animation-delay: 0.2s;
+}
+.animate-fadeIn.delay-400 {
+  animation-delay: 0.4s;
+}
+/* skill and experties */
+/* Fade In for title/button */
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.animate-fadeIn {
+  animation: fadeIn 0.8s ease forwards;
+}
+
+/* Slide Up for skills */
+@keyframes slideUp {
+  0% { opacity: 0; transform: translateY(20px) scale(0.9); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+.animate-slideUp {
+  animation: slideUp 0.6s ease forwards;
+}
+
+/* projects section */
+/* contact */
+/* Fade In */
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.animate-fadeIn {
+  animation: fadeIn 0.9s ease forwards;
+}
+.animate-fadeIn.delay-200 {
+  animation-delay: 0.2s;
+}
+
+/* Floating Icons */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+.animate-float.delay-200 {
+  animation-delay: 0.2s;
+}
+.animate-float.delay-400 {
+  animation-delay: 0.4s;
+}
+
